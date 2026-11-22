@@ -1,0 +1,21 @@
+# Environment dan file rahasia
+.env
+.env.*
+!.env.example
+
+# Laravel
+/backend-laravel/vendor/
+/backend-laravel/node_modules/
+/backend-laravel/storage/*.key
+/backend-laravel/storage/logs/*
+/backend-laravel/bootstrap/cache/*
+
+# Dependencies dan hasil build
+node_modules/
+vendor/
+dist/
+
+# Editor dan sistem
+.vscode/
+.DS_Store
+Thumbs.db
